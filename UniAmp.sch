@@ -1,0 +1,994 @@
+EESchema Schematic File Version 4
+LIBS:UniAmp-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L UniAmp-rescue:Audio-pcb-rescue_LM49450-Wiiboy_parts-Audio_pcb-cache U2
+U 1 1 5D95481C
+P 6450 3550
+F 0 "U2" H 7244 3546 50  0000 L CNN
+F 1 "Audio-pcb-rescue_LM49450-Wiiboy_parts" H 7244 3455 50  0000 L CNN
+F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm" H 6000 4100 50  0001 C CNN
+F 3 "" H 6000 4100 50  0001 C CNN
+	1    6450 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L UniAmp-rescue:PIC16F15324-pic16f15324 U1
+U 1 1 5D9556E9
+P 2950 3400
+F 0 "U1" H 3944 3478 60  0000 L CNN
+F 1 "PIC16F15324" H 3944 3372 60  0000 L CNN
+F 2 "Package_DFN_QFN:QFN-16-1EP_4x4mm_P0.65mm_EP2.7x2.7mm" H 2950 3950 60  0001 C CNN
+F 3 "" H 2950 3950 60  0001 C CNN
+	1    2950 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L UniAmp-rescue:LP5907MFX-1.8-Audio_pcb-cache U3
+U 1 1 5D957FEC
+P 9500 3200
+F 0 "U3" H 9500 3567 50  0000 C CNN
+F 1 "LP5907MFX-1.8" H 9500 3476 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 9500 3550 50  0001 C CNN
+F 3 "" H 9500 3700 50  0001 C CNN
+	1    9500 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 5D958C09
+P 6250 4800
+F 0 "C4" H 6365 4846 50  0000 L CNN
+F 1 "C" H 6365 4755 50  0000 L CNN
+F 2 ".pretty:C_0402_smalltext" H 6288 4650 50  0001 C CNN
+F 3 "~" H 6250 4800 50  0001 C CNN
+	1    6250 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C7
+U 1 1 5D959D72
+P 6550 4900
+F 0 "C7" H 6665 4946 50  0000 L CNN
+F 1 "C" H 6665 4855 50  0000 L CNN
+F 2 ".pretty:C_0402_smalltext" H 6588 4750 50  0001 C CNN
+F 3 "~" H 6550 4900 50  0001 C CNN
+	1    6550 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5D95ADC3
+P 5550 3100
+F 0 "C2" H 5665 3146 50  0000 L CNN
+F 1 "C" H 5665 3055 50  0000 L CNN
+F 2 ".pretty:C_0402_smalltext" H 5588 2950 50  0001 C CNN
+F 3 "~" H 5550 3100 50  0001 C CNN
+	1    5550 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 3250 5550 3250
+Wire Wire Line
+	5550 2950 5550 2750
+Wire Wire Line
+	5550 2750 6250 2750
+Wire Wire Line
+	6250 2750 6250 2900
+$Comp
+L Device:C C5
+U 1 1 5D95C04F
+P 6350 2450
+F 0 "C5" H 6465 2496 50  0000 L CNN
+F 1 "C" H 6465 2405 50  0000 L CNN
+F 2 ".pretty:C_0402_smalltext" H 6388 2300 50  0001 C CNN
+F 3 "~" H 6350 2450 50  0001 C CNN
+	1    6350 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 5D95C921
+P 6550 2450
+F 0 "C6" H 6665 2496 50  0000 L CNN
+F 1 "C" H 6665 2405 50  0000 L CNN
+F 2 ".pretty:C_0402_smalltext" H 6588 2300 50  0001 C CNN
+F 3 "~" H 6550 2450 50  0001 C CNN
+	1    6550 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5D95D0AD
+P 6150 2450
+F 0 "C3" H 6265 2496 50  0000 L CNN
+F 1 "C" H 6265 2405 50  0000 L CNN
+F 2 ".pretty:C_0402_smalltext" H 6188 2300 50  0001 C CNN
+F 3 "~" H 6150 2450 50  0001 C CNN
+	1    6150 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 2900 6150 2650
+Wire Wire Line
+	6350 2900 6350 2600
+Wire Wire Line
+	6550 2900 6550 2650
+$Comp
+L power:+2V5 #PWR0101
+U 1 1 5D95DF28
+P 6150 2650
+F 0 "#PWR0101" H 6150 2500 50  0001 C CNN
+F 1 "+2V5" V 6165 2778 50  0000 L CNN
+F 2 "" H 6150 2650 50  0001 C CNN
+F 3 "" H 6150 2650 50  0001 C CNN
+	1    6150 2650
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6150 2650
+Wire Wire Line
+	6150 2650 6150 2600
+Wire Wire Line
+	6150 2650 6550 2650
+Connection ~ 6550 2650
+Wire Wire Line
+	6550 2650 6550 2600
+Wire Wire Line
+	6250 4300 6250 4650
+$Comp
+L power:+3V3 #PWR0103
+U 1 1 5D96061A
+P 6850 4650
+F 0 "#PWR0103" H 6850 4500 50  0001 C CNN
+F 1 "+3V3" H 6865 4823 50  0000 C CNN
+F 2 "" H 6850 4650 50  0001 C CNN
+F 3 "" H 6850 4650 50  0001 C CNN
+	1    6850 4650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6250 4650 6350 4650
+Wire Wire Line
+	6850 4650 6850 4300
+Connection ~ 6250 4650
+Connection ~ 6850 4650
+Wire Wire Line
+	6550 4750 6550 4300
+Wire Wire Line
+	5800 3350 5450 3350
+Wire Wire Line
+	5450 3350 5450 3550
+Wire Wire Line
+	5450 5050 6250 5050
+Wire Wire Line
+	6550 5050 7700 5050
+Wire Wire Line
+	7700 5050 7700 3950
+Wire Wire Line
+	7700 2300 6850 2300
+Wire Wire Line
+	5450 2300 5450 2900
+Connection ~ 6550 5050
+Connection ~ 6150 2300
+Wire Wire Line
+	6150 2300 5450 2300
+Connection ~ 6350 2300
+Wire Wire Line
+	6350 2300 6150 2300
+Connection ~ 6550 2300
+Wire Wire Line
+	6550 2300 6350 2300
+Connection ~ 5450 3350
+$Comp
+L power:GND #PWR0104
+U 1 1 5D963DB6
+P 7700 5050
+F 0 "#PWR0104" H 7700 4800 50  0001 C CNN
+F 1 "GND" H 7705 4877 50  0000 C CNN
+F 2 "" H 7700 5050 50  0001 C CNN
+F 3 "" H 7700 5050 50  0001 C CNN
+	1    7700 5050
+	1    0    0    -1  
+$EndComp
+Connection ~ 7700 5050
+Wire Wire Line
+	6250 4950 6250 5050
+Connection ~ 6250 5050
+Wire Wire Line
+	6250 5050 6450 5050
+Wire Wire Line
+	5800 3550 5450 3550
+Connection ~ 5450 3550
+Wire Wire Line
+	5450 3550 5450 5050
+Wire Wire Line
+	6850 2900 6850 2300
+Connection ~ 6850 2300
+Wire Wire Line
+	6850 2300 6550 2300
+Wire Wire Line
+	6050 2900 5450 2900
+Connection ~ 5450 2900
+Wire Wire Line
+	5450 2900 5450 3350
+$Comp
+L Device:C C8
+U 1 1 5D9660F3
+P 7550 3250
+F 0 "C8" V 7298 3250 50  0000 C CNN
+F 1 "C" V 7389 3250 50  0000 C CNN
+F 2 ".pretty:C_0402_smalltext" H 7588 3100 50  0001 C CNN
+F 3 "~" H 7550 3250 50  0001 C CNN
+	1    7550 3250
+	0    1    1    0   
+$EndComp
+Connection ~ 7700 3250
+Wire Wire Line
+	7700 3250 7700 2300
+Wire Wire Line
+	7400 3250 7200 3250
+$Comp
+L power:+3V3 #PWR0105
+U 1 1 5D9673FA
+P 7400 3250
+F 0 "#PWR0105" H 7400 3100 50  0001 C CNN
+F 1 "+3V3" H 7415 3423 50  0000 C CNN
+F 2 "" H 7400 3250 50  0001 C CNN
+F 3 "" H 7400 3250 50  0001 C CNN
+	1    7400 3250
+	1    0    0    -1  
+$EndComp
+Connection ~ 7400 3250
+Wire Wire Line
+	7200 3550 7700 3550
+Connection ~ 7700 3550
+Wire Wire Line
+	7700 3550 7700 3250
+Wire Wire Line
+	7200 3850 7400 3850
+Wire Wire Line
+	7400 3850 7400 3250
+$Comp
+L Device:C C9
+U 1 1 5D968ADC
+P 7550 3950
+F 0 "C9" V 7298 3950 50  0000 C CNN
+F 1 "C" V 7389 3950 50  0000 C CNN
+F 2 ".pretty:C_0402_smalltext" H 7588 3800 50  0001 C CNN
+F 3 "~" H 7550 3950 50  0001 C CNN
+	1    7550 3950
+	0    1    1    0   
+$EndComp
+Connection ~ 7700 3950
+Wire Wire Line
+	7700 3950 7700 3550
+Wire Wire Line
+	7400 3950 7200 3950
+Wire Wire Line
+	6450 4300 6450 5050
+Connection ~ 6450 5050
+Wire Wire Line
+	6450 5050 6550 5050
+$Comp
+L Device:C C13
+U 1 1 5D96AB6F
+P 9800 3350
+F 0 "C13" H 9915 3396 50  0000 L CNN
+F 1 "C" H 9915 3305 50  0000 L CNN
+F 2 ".pretty:C_0402_smalltext" H 9838 3200 50  0001 C CNN
+F 3 "~" H 9800 3350 50  0001 C CNN
+	1    9800 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C12
+U 1 1 5D96B3DC
+P 9200 3350
+F 0 "C12" H 9315 3396 50  0000 L CNN
+F 1 "C" H 9315 3305 50  0000 L CNN
+F 2 ".pretty:C_0402_smalltext" H 9238 3200 50  0001 C CNN
+F 3 "~" H 9200 3350 50  0001 C CNN
+	1    9200 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 3500 9500 3500
+Connection ~ 9500 3500
+Wire Wire Line
+	9500 3500 9800 3500
+Wire Wire Line
+	9800 3200 9800 3100
+Wire Wire Line
+	9200 3200 9200 3100
+Connection ~ 9200 3200
+$Comp
+L power:+3V3 #PWR0106
+U 1 1 5D96D8F0
+P 9200 3100
+F 0 "#PWR0106" H 9200 2950 50  0001 C CNN
+F 1 "+3V3" V 9215 3228 50  0000 L CNN
+F 2 "" H 9200 3100 50  0001 C CNN
+F 3 "" H 9200 3100 50  0001 C CNN
+	1    9200 3100
+	0    -1   -1   0   
+$EndComp
+Connection ~ 9200 3100
+$Comp
+L power:+2V5 #PWR0107
+U 1 1 5D96E7B0
+P 9800 3100
+F 0 "#PWR0107" H 9800 2950 50  0001 C CNN
+F 1 "+2V5" V 9815 3228 50  0000 L CNN
+F 2 "" H 9800 3100 50  0001 C CNN
+F 3 "" H 9800 3100 50  0001 C CNN
+	1    9800 3100
+	0    1    1    0   
+$EndComp
+Connection ~ 9800 3100
+$Comp
+L power:GND #PWR0108
+U 1 1 5D96F22B
+P 9500 3500
+F 0 "#PWR0108" H 9500 3250 50  0001 C CNN
+F 1 "GND" H 9505 3327 50  0000 C CNN
+F 2 "" H 9500 3500 50  0001 C CNN
+F 3 "" H 9500 3500 50  0001 C CNN
+	1    9500 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP3
+U 1 1 5D97A06F
+P 4450 1450
+F 0 "TP3" H 4508 1568 50  0000 L CNN
+F 1 "TestPoint" H 4508 1477 50  0000 L CNN
+F 2 "Wiiboy Parts:1.25mm pad" H 4650 1450 50  0001 C CNN
+F 3 "~" H 4650 1450 50  0001 C CNN
+	1    4450 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP4
+U 1 1 5D97A76F
+P 4950 1450
+F 0 "TP4" H 5008 1568 50  0000 L CNN
+F 1 "TestPoint" H 5008 1477 50  0000 L CNN
+F 2 "Wiiboy Parts:1.25mm pad" H 5150 1450 50  0001 C CNN
+F 3 "~" H 5150 1450 50  0001 C CNN
+	1    4950 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 5D97B7D3
+P 4450 1450
+F 0 "#PWR0109" H 4450 1200 50  0001 C CNN
+F 1 "GND" H 4455 1277 50  0000 C CNN
+F 2 "" H 4450 1450 50  0001 C CNN
+F 3 "" H 4450 1450 50  0001 C CNN
+	1    4450 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0110
+U 1 1 5D97BE87
+P 4950 1450
+F 0 "#PWR0110" H 4950 1300 50  0001 C CNN
+F 1 "+3V3" H 4965 1623 50  0000 C CNN
+F 2 "" H 4950 1450 50  0001 C CNN
+F 3 "" H 4950 1450 50  0001 C CNN
+	1    4950 1450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x05_Female J3
+U 1 1 5D984CC5
+P 4350 2650
+F 0 "J3" V 4288 2362 50  0000 R CNN
+F 1 "Conn_01x05_Female" V 4197 2362 50  0000 R CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x05_P1.27mm_Vertical" H 4350 2650 50  0001 C CNN
+F 3 "~" H 4350 2650 50  0001 C CNN
+	1    4350 2650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3900 3200 4450 3200
+Wire Wire Line
+	4450 3200 4450 2850
+Wire Wire Line
+	3900 3300 4550 3300
+Wire Wire Line
+	4550 3300 4550 2850
+$Comp
+L power:GND #PWR0112
+U 1 1 5D988488
+P 4350 2850
+F 0 "#PWR0112" H 4350 2600 50  0001 C CNN
+F 1 "GND" H 4355 2677 50  0000 C CNN
+F 2 "" H 4350 2850 50  0001 C CNN
+F 3 "" H 4350 2850 50  0001 C CNN
+	1    4350 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5D98A4E6
+P 3050 2550
+F 0 "C1" V 2798 2550 50  0000 C CNN
+F 1 "C" V 2889 2550 50  0000 C CNN
+F 2 ".pretty:C_0402_smalltext" H 3088 2400 50  0001 C CNN
+F 3 "~" H 3050 2550 50  0001 C CNN
+	1    3050 2550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3200 2750 3200 2550
+Wire Wire Line
+	2900 2750 2900 2550
+Connection ~ 2900 2550
+$Comp
+L power:GND #PWR0115
+U 1 1 5D98D25E
+P 3200 2550
+F 0 "#PWR0115" H 3200 2300 50  0001 C CNN
+F 1 "GND" V 3205 2422 50  0000 R CNN
+F 2 "" H 3200 2550 50  0001 C CNN
+F 3 "" H 3200 2550 50  0001 C CNN
+	1    3200 2550
+	0    -1   -1   0   
+$EndComp
+Connection ~ 3200 2550
+$Comp
+L power:GND #PWR0116
+U 1 1 5D98E1C5
+P 2800 2750
+F 0 "#PWR0116" H 2800 2500 50  0001 C CNN
+F 1 "GND" H 2805 2577 50  0000 C CNN
+F 2 "" H 2800 2750 50  0001 C CNN
+F 3 "" H 2800 2750 50  0001 C CNN
+	1    2800 2750
+	-1   0    0    1   
+$EndComp
+Text GLabel 4150 2850 3    50   Input ~ 0
+MCLR
+Text GLabel 2300 3400 0    50   Input ~ 0
+MCLR
+Text GLabel 3200 4000 3    50   Input ~ 0
+SDA
+Text GLabel 3900 3500 2    50   Input ~ 0
+SCL
+$Comp
+L Device:R R2
+U 1 1 5D98FF15
+P 3900 3650
+F 0 "R2" H 3970 3696 50  0000 L CNN
+F 1 "R" H 3970 3605 50  0000 L CNN
+F 2 ".pretty:R_0402_smalltext" V 3830 3650 50  0001 C CNN
+F 3 "~" H 3900 3650 50  0001 C CNN
+	1    3900 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5D990D5B
+P 3350 4000
+F 0 "R1" V 3143 4000 50  0000 C CNN
+F 1 "R" V 3234 4000 50  0000 C CNN
+F 2 ".pretty:R_0402_smalltext" V 3280 4000 50  0001 C CNN
+F 3 "~" H 3350 4000 50  0001 C CNN
+	1    3350 4000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3900 4000 3900 3800
+Wire Wire Line
+	3500 4000 3900 4000
+Connection ~ 3900 4000
+Text GLabel 6150 4300 3    50   Input ~ 0
+SCL
+Text GLabel 5800 3450 0    50   Input ~ 0
+SDA
+Text GLabel 2300 3200 0    50   Input ~ 0
+vol+
+Text GLabel 2300 3300 0    50   Input ~ 0
+vol-
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5D9953DD
+P 3550 1450
+F 0 "TP1" H 3608 1568 50  0000 L CNN
+F 1 "TestPoint" H 3608 1477 50  0000 L CNN
+F 2 "Wiiboy Parts:1.25mm pad" H 3750 1450 50  0001 C CNN
+F 3 "~" H 3750 1450 50  0001 C CNN
+	1    3550 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5D995D16
+P 4000 1450
+F 0 "TP2" H 4058 1568 50  0000 L CNN
+F 1 "TestPoint" H 4058 1477 50  0000 L CNN
+F 2 "Wiiboy Parts:1.25mm pad" H 4200 1450 50  0001 C CNN
+F 3 "~" H 4200 1450 50  0001 C CNN
+	1    4000 1450
+	1    0    0    -1  
+$EndComp
+Text GLabel 3550 1450 3    50   Input ~ 0
+vol+
+Text GLabel 4000 1450 3    50   Input ~ 0
+vol-
+Text GLabel 2900 4000 3    50   Input ~ 0
+dat0
+Text GLabel 1150 2750 3    50   Input ~ 0
+dat0
+$Comp
+L Connector:TestPoint TP5
+U 1 1 5D9734DA
+P 5250 3650
+F 0 "TP5" V 5445 3722 50  0000 C CNN
+F 1 "TestPoint" V 5354 3722 50  0000 C CNN
+F 2 "Wiiboy Parts:1.25mm pad" H 5450 3650 50  0001 C CNN
+F 3 "~" H 5450 3650 50  0001 C CNN
+	1    5250 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP6
+U 1 1 5D974B7B
+P 5250 3750
+F 0 "TP6" V 5445 3822 50  0000 C CNN
+F 1 "TestPoint" V 5354 3822 50  0000 C CNN
+F 2 "Wiiboy Parts:1.25mm pad" H 5450 3750 50  0001 C CNN
+F 3 "~" H 5450 3750 50  0001 C CNN
+	1    5250 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP7
+U 1 1 5D9751E4
+P 5250 3850
+F 0 "TP7" V 5445 3922 50  0000 C CNN
+F 1 "TestPoint" V 5354 3922 50  0000 C CNN
+F 2 "Wiiboy Parts:1.25mm pad" H 5450 3850 50  0001 C CNN
+F 3 "~" H 5450 3850 50  0001 C CNN
+	1    5250 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5800 3850 5250 3850
+Wire Wire Line
+	5250 3750 5800 3750
+Wire Wire Line
+	5800 3650 5250 3650
+$Comp
+L Device:R R5
+U 1 1 5D97A631
+P 8400 4350
+F 0 "R5" V 8193 4350 50  0000 C CNN
+F 1 "R" V 8284 4350 50  0000 C CNN
+F 2 ".pretty:R_0402_smalltext" V 8330 4350 50  0001 C CNN
+F 3 "~" H 8400 4350 50  0001 C CNN
+	1    8400 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5D97B3E6
+P 8250 4500
+F 0 "R3" H 8320 4546 50  0000 L CNN
+F 1 "R" H 8320 4455 50  0000 L CNN
+F 2 ".pretty:R_0402_smalltext" V 8180 4500 50  0001 C CNN
+F 3 "~" H 8250 4500 50  0001 C CNN
+	1    8250 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C10
+U 1 1 5D97BB8F
+P 8100 4350
+F 0 "C10" V 7848 4350 50  0000 C CNN
+F 1 "C" V 7939 4350 50  0000 C CNN
+F 2 ".pretty:C_0402_smalltext" H 8138 4200 50  0001 C CNN
+F 3 "~" H 8100 4350 50  0001 C CNN
+	1    8100 4350
+	0    1    1    0   
+$EndComp
+Connection ~ 8250 4350
+$Comp
+L Device:C C11
+U 1 1 5D97C6BC
+P 8100 4950
+F 0 "C11" V 7848 4950 50  0000 C CNN
+F 1 "C" V 7939 4950 50  0000 C CNN
+F 2 ".pretty:C_0402_smalltext" H 8138 4800 50  0001 C CNN
+F 3 "~" H 8100 4950 50  0001 C CNN
+	1    8100 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5D97D5BC
+P 8250 5100
+F 0 "R4" H 8320 5146 50  0000 L CNN
+F 1 "R" H 8320 5055 50  0000 L CNN
+F 2 ".pretty:R_0402_smalltext" V 8180 5100 50  0001 C CNN
+F 3 "~" H 8250 5100 50  0001 C CNN
+	1    8250 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5D97DF77
+P 8400 4950
+F 0 "R6" V 8193 4950 50  0000 C CNN
+F 1 "R" V 8284 4950 50  0000 C CNN
+F 2 ".pretty:R_0402_smalltext" V 8330 4950 50  0001 C CNN
+F 3 "~" H 8400 4950 50  0001 C CNN
+	1    8400 4950
+	0    1    1    0   
+$EndComp
+Connection ~ 8250 4950
+$Comp
+L Connector:TestPoint TP14
+U 1 1 5D97E7BA
+P 8550 4350
+F 0 "TP14" V 8504 4538 50  0000 L CNN
+F 1 "TestPoint" V 8595 4538 50  0000 L CNN
+F 2 "Wiiboy Parts:1.25mm pad" H 8750 4350 50  0001 C CNN
+F 3 "~" H 8750 4350 50  0001 C CNN
+	1    8550 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP15
+U 1 1 5D97F3BD
+P 8550 4950
+F 0 "TP15" V 8504 5138 50  0000 L CNN
+F 1 "TestPoint" V 8595 5138 50  0000 L CNN
+F 2 "Wiiboy Parts:1.25mm pad" H 8750 4950 50  0001 C CNN
+F 3 "~" H 8750 4950 50  0001 C CNN
+	1    8550 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0118
+U 1 1 5D9822C1
+P 8250 4650
+F 0 "#PWR0118" H 8250 4400 50  0001 C CNN
+F 1 "GND" H 8255 4477 50  0000 C CNN
+F 2 "" H 8250 4650 50  0001 C CNN
+F 3 "" H 8250 4650 50  0001 C CNN
+	1    8250 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0119
+U 1 1 5D982DC7
+P 8250 5250
+F 0 "#PWR0119" H 8250 5000 50  0001 C CNN
+F 1 "GND" H 8255 5077 50  0000 C CNN
+F 2 "" H 8250 5250 50  0001 C CNN
+F 3 "" H 8250 5250 50  0001 C CNN
+	1    8250 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 4350 6750 4350
+Wire Wire Line
+	6750 4350 6750 4300
+Wire Wire Line
+	7950 4950 7950 4400
+Wire Wire Line
+	7950 4400 6650 4400
+Wire Wire Line
+	6650 4400 6650 4300
+$Comp
+L Connector:TestPoint TP10
+U 1 1 5D988A5E
+P 7900 3200
+F 0 "TP10" H 7958 3318 50  0000 L CNN
+F 1 "TestPoint" H 7958 3227 50  0000 L CNN
+F 2 "Wiiboy Parts:1.25mm pad" H 8100 3200 50  0001 C CNN
+F 3 "~" H 8100 3200 50  0001 C CNN
+	1    7900 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP11
+U 1 1 5D9895F8
+P 8000 3200
+F 0 "TP11" H 8058 3318 50  0000 L CNN
+F 1 "TestPoint" H 8058 3227 50  0000 L CNN
+F 2 "Wiiboy Parts:1.25mm pad" H 8200 3200 50  0001 C CNN
+F 3 "~" H 8200 3200 50  0001 C CNN
+	1    8000 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 3350 7900 3350
+Wire Wire Line
+	7900 3350 7900 3200
+Wire Wire Line
+	7200 3450 8000 3450
+Wire Wire Line
+	8000 3450 8000 3200
+$Comp
+L Connector:TestPoint TP12
+U 1 1 5D98CF14
+P 8350 3200
+F 0 "TP12" H 8408 3318 50  0000 L CNN
+F 1 "TestPoint" H 8408 3227 50  0000 L CNN
+F 2 "Wiiboy Parts:1.25mm pad" H 8550 3200 50  0001 C CNN
+F 3 "~" H 8550 3200 50  0001 C CNN
+	1    8350 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP13
+U 1 1 5D98D87B
+P 8450 3200
+F 0 "TP13" H 8508 3318 50  0000 L CNN
+F 1 "TestPoint" H 8508 3227 50  0000 L CNN
+F 2 "Wiiboy Parts:1.25mm pad" H 8650 3200 50  0001 C CNN
+F 3 "~" H 8650 3200 50  0001 C CNN
+	1    8450 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 3200 8350 3650
+Wire Wire Line
+	8350 3650 7200 3650
+Wire Wire Line
+	7200 3750 8450 3750
+Wire Wire Line
+	8450 3750 8450 3200
+Wire Wire Line
+	6450 2900 6450 1850
+Wire Wire Line
+	6650 2900 6650 2000
+Wire Wire Line
+	6650 2000 6550 2000
+Wire Wire Line
+	6550 2000 6550 1850
+Wire Wire Line
+	6750 2900 6750 1950
+Wire Wire Line
+	6750 1950 6650 1950
+Wire Wire Line
+	6650 1950 6650 1850
+Wire Wire Line
+	6850 2300 6850 1900
+Wire Wire Line
+	6850 1900 6750 1900
+Wire Wire Line
+	6750 1900 6750 1850
+$Comp
+L Connector:Conn_01x02_Female J1
+U 1 1 5D99DDFA
+P 1150 2550
+F 0 "J1" V 1088 2362 50  0000 R CNN
+F 1 "Conn_01x02_Female" V 997 2362 50  0000 R CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 1150 2550 50  0001 C CNN
+F 3 "~" H 1150 2550 50  0001 C CNN
+	1    1150 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0120
+U 1 1 5D9A02EB
+P 1250 2750
+F 0 "#PWR0120" H 1250 2500 50  0001 C CNN
+F 1 "GND" H 1255 2577 50  0000 C CNN
+F 2 "" H 1250 2750 50  0001 C CNN
+F 3 "" H 1250 2750 50  0001 C CNN
+	1    1250 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP16
+U 1 1 5D98D6A8
+P 6450 1850
+F 0 "TP16" H 6508 1968 50  0000 L CNN
+F 1 "TestPoint" H 6508 1877 50  0000 L CNN
+F 2 "Wiiboy Parts:1.25mm pad" H 6650 1850 50  0001 C CNN
+F 3 "~" H 6650 1850 50  0001 C CNN
+	1    6450 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP17
+U 1 1 5D98E611
+P 6550 1850
+F 0 "TP17" H 6608 1968 50  0000 L CNN
+F 1 "TestPoint" H 6608 1877 50  0000 L CNN
+F 2 "Wiiboy Parts:1.25mm pad" H 6750 1850 50  0001 C CNN
+F 3 "~" H 6750 1850 50  0001 C CNN
+	1    6550 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP18
+U 1 1 5D98F0AE
+P 6650 1850
+F 0 "TP18" H 6708 1968 50  0000 L CNN
+F 1 "TestPoint" H 6708 1877 50  0000 L CNN
+F 2 "Wiiboy Parts:1.25mm pad" H 6850 1850 50  0001 C CNN
+F 3 "~" H 6850 1850 50  0001 C CNN
+	1    6650 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP19
+U 1 1 5D98F4BA
+P 6750 1850
+F 0 "TP19" H 6808 1968 50  0000 L CNN
+F 1 "TestPoint" H 6808 1877 50  0000 L CNN
+F 2 "Wiiboy Parts:1.25mm pad" H 6950 1850 50  0001 C CNN
+F 3 "~" H 6950 1850 50  0001 C CNN
+	1    6750 1850
+	1    0    0    -1  
+$EndComp
+Text GLabel 6750 2250 0    50   Input ~ 0
+HPS
+Text GLabel 6450 2050 0    50   Input ~ 0
+HPL
+Text GLabel 6650 2150 0    50   Input ~ 0
+HPR
+Text GLabel 3100 4000 3    50   Input ~ 0
+HPS
+Wire Wire Line
+	3900 4000 3900 4300
+Wire Wire Line
+	3900 4300 1950 4300
+Wire Wire Line
+	1950 4300 1950 2550
+$Comp
+L Timer_PLL:CS2000-CP U4
+U 1 1 5E484275
+P 3150 5650
+F 0 "U4" H 3150 6431 50  0000 C CNN
+F 1 "CS2000-CP" H 3150 6340 50  0000 C CNN
+F 2 "Package_SO:MSOP-10_3x3mm_P0.5mm" H 3950 5200 50  0001 C CNN
+F 3 "https://statics.cirrus.com/pubs/proDatasheet/CS2000-CP_F3.pdf" H 3150 5600 50  0001 C CNN
+	1    3150 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0117
+U 1 1 5E484986
+P 3150 6150
+F 0 "#PWR0117" H 3150 5900 50  0001 C CNN
+F 1 "GND" H 3155 5977 50  0000 C CNN
+F 2 "" H 3150 6150 50  0001 C CNN
+F 3 "" H 3150 6150 50  0001 C CNN
+	1    3150 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0122
+U 1 1 5E485692
+P 3150 4750
+F 0 "#PWR0122" H 3150 4500 50  0001 C CNN
+F 1 "GND" H 3155 4577 50  0000 C CNN
+F 2 "" H 3150 4750 50  0001 C CNN
+F 3 "" H 3150 4750 50  0001 C CNN
+	1    3150 4750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C15
+U 1 1 5E485E26
+P 3150 4900
+F 0 "C15" H 3265 4946 50  0000 L CNN
+F 1 "C" H 3265 4855 50  0000 L CNN
+F 2 ".pretty:C_0402_smalltext" H 3188 4750 50  0001 C CNN
+F 3 "~" H 3150 4900 50  0001 C CNN
+	1    3150 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0123
+U 1 1 5E487E5D
+P 3150 5050
+F 0 "#PWR0123" H 3150 4900 50  0001 C CNN
+F 1 "+3V3" V 3165 5178 50  0000 L CNN
+F 2 "" H 3150 5050 50  0001 C CNN
+F 3 "" H 3150 5050 50  0001 C CNN
+	1    3150 5050
+	0    1    1    0   
+$EndComp
+Connection ~ 3150 5050
+Text GLabel 2450 5350 0    50   Input ~ 0
+SCL
+Text GLabel 2450 5250 0    50   Input ~ 0
+SDA
+$Comp
+L power:GND #PWR0124
+U 1 1 5E48A6BA
+P 2450 5450
+F 0 "#PWR0124" H 2450 5200 50  0001 C CNN
+F 1 "GND" V 2455 5322 50  0000 R CNN
+F 2 "" H 2450 5450 50  0001 C CNN
+F 3 "" H 2450 5450 50  0001 C CNN
+	1    2450 5450
+	0    1    1    0   
+$EndComp
+Text GLabel 5800 3650 1    50   Input ~ 0
+WS
+Text GLabel 2450 5650 0    50   Input ~ 0
+WS
+Text GLabel 3850 5550 2    50   Input ~ 0
+MCLK
+Text GLabel 5800 3950 3    50   Input ~ 0
+MCLK
+$Comp
+L Device:C C14
+U 1 1 5E48CE7E
+P 2300 5950
+F 0 "C14" V 2048 5950 50  0000 C CNN
+F 1 "C" V 2139 5950 50  0000 C CNN
+F 2 ".pretty:C_0402_smalltext" H 2338 5800 50  0001 C CNN
+F 3 "~" H 2300 5950 50  0001 C CNN
+	1    2300 5950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2150 5950 2150 5850
+Wire Wire Line
+	2150 5850 2450 5850
+$Comp
+L power:GND #PWR0125
+U 1 1 5E490932
+P 2150 5950
+F 0 "#PWR0125" H 2150 5700 50  0001 C CNN
+F 1 "GND" V 2155 5822 50  0000 R CNN
+F 2 "" H 2150 5950 50  0001 C CNN
+F 3 "" H 2150 5950 50  0001 C CNN
+	1    2150 5950
+	0    1    1    0   
+$EndComp
+Connection ~ 2150 5950
+Wire Wire Line
+	6350 4300 6350 4650
+Connection ~ 6350 4650
+Wire Wire Line
+	6350 4650 6850 4650
+Wire Wire Line
+	1950 2550 2900 2550
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5FAEE45C
+P 2900 2550
+F 0 "#PWR?" H 2900 2400 50  0001 C CNN
+F 1 "+3V3" H 2915 2723 50  0000 C CNN
+F 2 "" H 2900 2550 50  0001 C CNN
+F 3 "" H 2900 2550 50  0001 C CNN
+	1    2900 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5FB6D96D
+P 4250 2850
+F 0 "#PWR?" H 4250 2700 50  0001 C CNN
+F 1 "+3V3" H 4265 3023 50  0000 C CNN
+F 2 "" H 4250 2850 50  0001 C CNN
+F 3 "" H 4250 2850 50  0001 C CNN
+	1    4250 2850
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC
